@@ -1,0 +1,59 @@
+header {
+    background-color: rgba(194, 194, 194, 0.761)
+}
+
+.buttons-header-nav {
+    background-color: transparent;
+    display: flex;
+}
+.btn-header-nav {
+    background-color: transparent;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(145, 13, 13, 0.523);
+    padding: 0.8rem;
+}
+.btn-header-nav:hover {
+    background-color: rgb(220, 220, 220);
+}
+.btn-header-nav small {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.btn-header-nav-profile {
+     background-color: transparent;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0.8rem;
+}
+
+.btn-header-nav-profile:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.btn-header-nav-profile small {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(75, 120, 170);
+}
+
+.btn-header-nav-logout {
+ background-color: transparent;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.btn-header-nav-logout:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.btn-header-nav-logout small {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(248, 117, 117);
+}

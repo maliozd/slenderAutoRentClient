@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="filters">
+    
+  </div>
+  <mat-card *ngFor="let car of cars" class="card">
+    <img
+      src="https://content-images.carmax.com/qeontfmijmzv/MY19MKj0XutK084z874jt/9632621fd8464b5c0e54a9dee64ad4e5/tesla.jpg"
+      class="card-img-top" alt="...">
+    <mat-card-content class="card-content">
+      <mat-card-title class="card-title">
+        <p>{{car.brand}} - <small>{{car.carModel}}</small></p>
+        <small>{{car.year}}</small>
+      </mat-card-title>
+    </mat-card-content>
+    <mat-card-footer class="card-footer">
+      <div class="features">
+        <label>Body type</label>
+        <p>{{car.bodyType}}</p>
+        <label>Transmission</label>
+        <p>{{car.transmission}}</p>
+        <label>Seats</label>
+        <p>{{car.seatCount}}</p>
+        <label>Horsepower</label>
+        <p>{{car.horsePower}}</p>
+        <label>Color</label>
+        <p>{{car.color}}</p>
+      </div>
+      <a class = "rent-btn" routerLink = "rent/{{car.id}}">Rent</a>
+
+    </mat-card-footer>
+  </mat-card>
+</div>
